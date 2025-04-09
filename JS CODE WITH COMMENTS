@@ -1,0 +1,77 @@
+// what is JS, What can we do with it, Where does js code runs
+//Js vs EcmaScript
+// what is JS js is widely used programming language right now 
+//js: 69.8% html :68.5% css:65.1 sql 56% java 45.3%
+//Js developer salary $ 72000 a year
+// What can we do with the js: js is only used in browsers 
+//with js we can develop web/ mobile Apps Real time networking apps like video streaming apps,command line tools,games
+//where do we run java script  in earlier it was developed to run only in browsers, called js engines  Through fire fox :spider monkey chrome :v8
+// in 2009 ryan dahl took the opensourse  javascript engines in chrome and embeded inside a cpp program  he called the program as node  the node is a cpp program
+//browsers provide the runtime environment to run the code:
+//Ecma  script,java script 
+//Ecma Script  it defines the core features of java script 
+// js is a programming language that follows 
+console.log("Hello  coding world ");
+console.log(2+3);  
+console.log('Helloooo World');
+let name ='Adhi';
+console.log(name);
+//variables Cannot be used a resrved keyword
+//should be meaningfull
+// cannot start with a number 
+//cannot contain a space or hyphen (-)
+//these are case insensitive
+let firstName="Mogili", lastName = 'Adieshwar Reddy';
+console.log(firstName,lastName);
+let name1="PAcha";
+name1="Pacha likitha";
+name1="Pacha likhitha Sai";
+console.log(name1);
+//primitive /value types: Strings,Numbers,Boolean,Undefined,null
+//Reference Types: Objects,Arrays,Functions,Dates,Regular Expressions,maps,Sets WeakMaps,Weak Sets
+let name2 ="Adhi";//String Literal
+let age = 30;//Number Literal
+let isApproved = false;//Boolean Literal
+let lastName1 =  undefined;//Undefined literal
+let selectedColour = null;//null literal
+//java script is a Dynamic type language because the values assigned to it can be changed at run time
+//Java script is not a Static type language which means  it is not going to changes the value of a variable at run time
+typeof name2;
+// Object 
+let person = {
+    name: 'Likitha',
+    age: 20
+}
+ person.name = 'Adhi';
+console.log(person.name,person.age);
+//Arrays
+ let names = ["Adhi","Likitha","GAnesh"];
+ names[3]="Sindhu ";
+ console.log(names);
+ console.log(names[1]);
+ //So the objects in yhe array and length of an array is also Dynamic
+ console.log(names.length);
+//Functions in java Script
+function greet(){
+    console.log("Hello Adhi");
+
+}
+greet();
+function wishing(name6){//parameter is this
+console.log('Hello' +  name6);
+}
+wishing(' likitha');//this is arguments
+wishing(' Butterfly');
+function theirFname(name , lastname){
+    console.log('Hello ' + name + " " + lastname);
+}
+theirFname('M','Adieshwar Reddy');
+//Types of functions 
+// in a real world function we use many many functions in fact 1000 function calls would be there
+function square(num){
+   return num * num;
+}
+let num = square(2);
+console.log(num);
+//its not necessary to use let we can use 
+console.log(square(87));
