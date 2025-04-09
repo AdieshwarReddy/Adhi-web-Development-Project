@@ -1,0 +1,119 @@
+<!doctype>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+       < <h1>first ,,statement</h1>
+        <p>Lorem ipsum,<strong> dolor sit amet consectetur adipisicing elit. Sit deleniti </strong>nobis ut fuga itaque? Dolor quidem deserunt laborum, minima officia praesentium magni quo assumenda id voluptate ipsa quia, perferendis beatae?rem</p>
+        </p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A culpa quos consequuntur<em> ea eos veritatis</em> deleniti laboriosam impedit recusandae, molestiae delectus repudiandae incidunt sit nobis aspernatur pariatur atque consectetur rem!<br>
+        <p> Lorem ipsum, dolor sit amet consectetur><h1><a href =http://www.google.com target="_blank">google</a> target"_blank" adipisicing elit</h1>h1. In nulla tempora vel, fugit vitae quasi quidem accusamus quae similique voluptas necessitatibus ex facilis doloremque molestias veniam dolore consequatur? Natus, explicabo?</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quis pariatur nemo incidunt dolorem in est beatae cupiditate voluptatum praesentium expedita nobis quasi doloribus cum iure distinctio, unde fuga! Aliquam!
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, quisquam, incidunt fuga totam nostrum repudiandae obcaecati et ea accusamus adipisci debitis. Tenetur deleniti sit facilis officia aperiam hic delectus ipsam?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, fuga!   
+            <h1>hiiiiiii</h1>
+        <h2>hiiiiiii</h2>
+        <a href="www.youtube.com" target="_blank">youtube</a>
+        <h5>hiiiiiii</h5>
+        <!--  lists-->
+        <ul>
+            <li>hii1</li>
+            <li>hii1</li>
+            <li>hii1</li>
+            <li>hii1</li>
+            <li>hii1</li>
+            <li>hii1</li>
+
+        </ul>
+        <ol>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <table></table>
+
+        </ol>
+        <table>
+            <thead>
+                <th>name</th>
+                <th>E mail</th>
+                <th>Age</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>adie</td>
+                    <td>2311cs020426</td>
+                    <td>20</td>
+
+
+                </tr>
+                <tr>
+                    <td>mani</td>
+                    <td>2311cs020450</td>
+                    <td>200</td>
+                    
+
+                </tr> <tr>
+                    <td>chinnu</td>
+                    <td>2311cs020449</td>
+                    <td>20</td>
+                    
+
+                </tr>
+            </tbody>
+          </table>
+          <hr>
+          <!--form -->
+          <form >
+            <div>
+                <lable>First Name</lable>
+            <input type="text" name="firstname" value="enter the first name".>
+
+            </div>
+            <div>
+                <lable >Last Name </lable>
+                <input type="text" name="'lastname"
+                placeholder="Enter the last name">
+            </div>
+            <div>
+                <label> Email</label>
+                <input type="email" name ="email">
+            </div>
+            <div>
+                <label> Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <lable>Gender</lable>
+                <select name ="gender">
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <div>
+                <label> Age:</label>
+                <input type="number" name ="age" value="20">
+            </div>
+            <div>
+                <label> Birthday :</label>
+                <input type="date" name ="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value ="Submit">
+
+          
+          <div style="margin-top:500px"></div>
+          <button>Click me</button>
+          <br>
+          < a href="">
+          <img src="sample.jpg"
+          alt="sorry cant reload">
+          <blockquote cite="http://www.google.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolor enim tempore totam voluptas quasi aperiam facilis vel excepturi ducimus optio corrupti provident consectetur aspernatur sequi nesciunt deleniti. Saepe, eveniet!
+          </blockquote>
+    </body>
+</html>
+<hr>
